@@ -1,0 +1,239 @@
+:root{
+    --primary-color:#232329;
+    --header-color:#ffffff;
+    --color_0: 255,255,255;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 232,230,230;
+    --color_13: 199,199,199;
+    --color_14: 153,153,151;
+    --color_15: 0,0,0;
+    --color_16: 181,188,240;
+    --color_17: 143,152,226;
+    --color_18: 56,74,211;
+    --color_19: 37,49,141;
+    --color_20: 19,25,70;
+    --color_21: 249,197,180;
+    --color_22: 243,167,143;
+    --color_23: 237,88,41;
+    --color_24: 158,59,27;
+    --color_25: 79,29,14;
+    --color_26: 210,172,247;
+    --color_27: 186,131,240;
+    --color_28: 128,21,232;
+    --color_29: 85,14,155;
+    --color_30: 43,7,77;
+    --color_31: 177,211,187;
+    --color_32: 127,168,139;
+    --color_33: 64,124,81;
+    --color_34: 43,83,54;
+    --color_35: 21,41,27;
+    --font_0: normal normal normal 40px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 28px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_3: normal normal normal 60px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_4: normal normal normal 40px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_5: normal normal normal 25px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_6: normal normal normal 22px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_7: normal normal normal 17px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_8: normal normal normal 15px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_9: normal normal normal 14px/1.4em proxima-n-w01-reg,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 50px;
+    --wix-ads-top-height: 50px;
+    --site-width: 980px;
+}
+html{
+  background-color:var(--primary-color)
+}
+.header{
+  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  font-weight:bold;
+  color:var(--header-color);
+}
+.container{
+  display:flex;
+  justify-content:space-evenly;
+  margin:20vh auto 0 auto;
+}
+
+.container > div{
+/*   background-color: blue; */
+  width: auto;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}
+.button_container{
+  display:flex;
+  justify-content:space-between;
+}
+.font_7 {
+    font: var(--font_7);
+    color: rgb(var(--color_15));
+}
+.link{
+  text-decoration:none;
+}
+.button{
+  margin-top:0px;
+  line-height:35px;
+  padding:2px 2px 2px 2px;
+  width:190px;
+  height:50px;
+  border-radius:10px;
+  text-align:center;
+  background-color:rgb(var(--color_27))
+}
+.button_text{
+  font:var(--font_7);
+  color:rgb(var(--color_8));
+  font-weight:bold;
+}
+#image{
+  width: 300px;
+}
+.preview{
+    border:solid 3px #1D1D21;
+    border-radius:15px;
+    height: 138px;
+    object-fit: cover;
+}
+.color_13 {
+    color: rgb(var(--color_13));
+}
+.color_11 {
+    color: rgb(var(--color_11));
+}
+#image.text{
+  line-height:0px;
+  width:330px;
+}
+#image.text.swapped{
+  width:300px;
+}
+.font_7.text{
+  margin-top:0;
+}
+#image.effect2.swapped{
+  margin-right:70px
+}
+#image.effect2
+{
+  position: relative;
+}
+#image.effect2:before, #image.effect2:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 39px;
+    left: 11px;
+    width: 62%;
+    top: 71%;
+    top: 48%;
+    /*dius: 16px;*/
+    max-width: 300px;
+    background: #09090B;
+    -webkit-box-shadow: 0px 15px 10px #000;
+    -moz-box-shadow: 0px 15px 10px #000;
+    box-shadow: 0px 15px 10px #000;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+#image.effect2:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: -89px;
+  left: auto;
+}
+
+#image.effect3
+{
+  position: relative;
+}
+#image.effect3:before, #image.effect3:after
+{
+       z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 50px;
+    left: 11px;
+    width: 45%;
+    top: 71%;
+    top: 61%;
+    /*dius: 16px;*/
+    max-width: 300px;
+    background: #09090B;
+    -webkit-box-shadow: 0px 18px 7px #000;
+    -moz-box-shadow: 0px 18px 7px #000;
+    box-shadow: 0px 18px 7px #000;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+#image.effect3:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: -49px;
+  left: auto;
+}
+.footer{
+  text-align:center;
+  align-items:center;
+/*   margin:70px 0px 70px 0px; */
+}
+
+.button_container.footer{
+  justify-content:center;
+}
+
+.button.footer{
+  background-color:rgb(var(--color_27))
+}
+.button_text.footer{
+  font-size:35px;
+  width:190px;
+  height:50px;
+  border-radius:10px;
+  text-align:center;  
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display:block;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #image {
+    width:200px;
+  }
+  .preview.resp{
+    height:auto;
+  }
+  #image.effect2:before, #image.effect2:after{
+    right:-120px;
+  }
+}
